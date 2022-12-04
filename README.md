@@ -53,7 +53,7 @@ Note: Recommended to follow along with the video tutorials listed above.
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/GuitarML/Proteus.git
+$ git clone https://github.com/38github/Proteus
 $ cd Proteus
 
 # initialize and set up submodules
