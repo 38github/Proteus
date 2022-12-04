@@ -28,8 +28,8 @@ juce_add_plugin(Proteus
     PLUGIN_MANUFACTURER_CODE GtML
     PLUGIN_CODE Prt3 
     FORMATS ${JUCE_FORMATS}
-    ProductName "Proteus"
-    LV2URI https://github.com/GuitarML/Proteus
+    ProductName "Proteus80"
+    LV2URI https://github.com/38github/Proteus
     ICON_BIG resources/logo.png
 
     VST3_CATEGORIES Fx Distortion
