@@ -152,7 +152,7 @@ bool ProteusAudioProcessorEditor::isValidFormat(File configFile)
         return false;
     }
     
-    if (hidden_size_temp == 40 && network == "LSTM") {
+    if (hidden_size_temp == 80 && network == "LSTM") {
         return true;
     } else {
         return false;
