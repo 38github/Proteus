@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 17)
 add_subdirectory(modules)
 include_directories(modules)
 
-juce_set_aax_sdk_path(C:/SDKs/AAX_SDK/)
+#########juce_set_aax_sdk_path(C:/SDKs/AAX_SDK/)
 
 set(JUCE_FORMATS AU VST3)
 
@@ -18,10 +18,10 @@ if(UNIX AND NOT APPLE)
 endif()
 
 # Build AAX if SDK target exists
-if(TARGET juce_aax_sdk)
-    message(STATUS "Building AAX plugin format")
-    list(APPEND JUCE_FORMATS AAX)
-endif()
+#########if(TARGET juce_aax_sdk)
+#########    message(STATUS "Building AAX plugin format")
+#########    list(APPEND JUCE_FORMATS AAX)
+#########endif()
 
 juce_add_plugin(Proteus
     COMPANY_NAME GuitarML
